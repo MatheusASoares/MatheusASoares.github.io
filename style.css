@@ -1,0 +1,21 @@
+@import url("/styles/header.css");
+@import url("/styles/sobre.css");
+@import url("/styles/metricas.css");
+@import url("/styles/vagas.css");
+
+
+:root {
+    --branco: #FFFFFF;
+    --vermelho: #8E2424;
+    --cinza-escuro: #3A404E;
+    --cinza-claro: #667085;
+    --fonte: "Inter";
+    --cinza-titulo-principal: #101828;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 500;
+}
